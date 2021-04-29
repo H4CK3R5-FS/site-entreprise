@@ -1,0 +1,56 @@
+body {
+    background-image: url("/site/assets/image/main-qimg-7ed78c59820605017ca035b3a6f848aa.jfif");
+    background-size: cover;
+}
+#lab1 {
+    font-family: Dela Gothic One;
+    color:whitesmoke;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    width: 85px;
+    height:35%;
+    transition: all 0.5s;
+    cursor: pointer;
+    font-family: Krona One;
+    margin-left: 45%;
+    margin-top: 60%;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+  
+.button:hover span {
+    padding-right: 25px;
+}
+  
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+#field1 {
+    margin-left: 25%;
+    width: 50%;
+    height: 700px;
+}
