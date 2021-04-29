@@ -1,0 +1,25 @@
+body {
+    background-image: url("/site/assets/image/COMBIEN-VAUT-MON-SITE.jpg");
+    background-size: cover;
+}
+.navbar {
+    background-color: black;
+}
+
+.container {
+    display: inline-block;
+}
+
+.container2 {
+    display: inline-block;
+
+}
+
+#btn2 {
+    margin-left: 15%;
+    color: black;
+    background-color: red;
+    cursor: pointer;
+    border-radius: 15%;
+    margin-top: -70px;
+}
