@@ -16,12 +16,12 @@ body {
     color: #FFFFFF;
     text-align: center;
     font-size: 15px;
-    width: 85px;
-    height:35%;
+    width: 15%;
+    height: 35px;;
     transition: all 0.5s;
     cursor: pointer;
     font-family: Zen Dots;
-    margin-left: 45%;
+    margin-left: 40%;
     margin-top: 60%;
     
 }
@@ -55,11 +55,15 @@ body {
     width: 50%;
     height: 500px;
     font-family: Zen Dots;
+    background-image: url("/site/assets/image/booster-site-web.jpg");
+    background-size: cover;
+    border-radius: 5%;
+    border-color: lightblue;
 }
 p {
     position: relative;
     font-family: Zen Dots;
-    font-size: 40px;
+    font-size: 45px;
     margin-left: 20%;
     text-transform: uppercase;
     letter-spacing: 2px;
