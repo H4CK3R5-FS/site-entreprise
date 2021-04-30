@@ -82,3 +82,9 @@ p {
     background-position: 500%;
     }
     }
+.div2 {
+    width: 5%;
+    height: 25px;
+    
+    opacity: 65%;
+}
